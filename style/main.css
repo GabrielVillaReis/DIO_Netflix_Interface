@@ -55,7 +55,7 @@ header nav a:hover {
 
 .main-movie {
     color: white;
-    height: 600px;
+    height: 601px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.30) 100%), url("/resources/1171056.jpg");
     background-size: cover;
     display: flex;
