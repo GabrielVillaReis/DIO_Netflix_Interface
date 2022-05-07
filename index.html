@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/main.css">`
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
     <title>Netflix</title>
 </head>
 <body>
@@ -12,12 +14,43 @@
         <div class="container">
             <h2 id="logotitle">NETFLIX</h2>
             <nav>
-                <a href="#">Home</a>
+                <a href="#main-movie">Home</a>
                 <a href="#">Series</a>
                 <a href="#">Movies</a>
-                <a href="#">documentaries</a>
+                <a href="#">Documentaries</a>
             </nav>
         </div>
     </header>
+    <main>
+        <div class="main-movie">
+            <div class="container">
+                <h3 class="title">Spyce and Wolf</h3>
+                <p class="description">Holo is a powerful wolf deity who is revered in the small town of Pasloe for blessing the annual harvest. Yet as years go by and the villagers become more self-sufficient, Holo has been reduced to a mere folktale. When a traveling merchant named Kraft Lawrence stops at the settlement, Holo offers to become his business partner if he takes her to her northern home of Yoitsu. The savvy trader recognizes Holo's unusual ability to evaluate a person's character and accepts her proposition. Now in the possession of both sharp bargaining skills and a charismatic negotiator, Lawrence inches closer to his goal of opening his own shop. However, as Lawrence travels the countryside with Holo in search of economic opportunities, he begins to realize that his aspirations are slowly morphing into something unexpected.
+                </p>
+                <div id="mainbuttons">
+                    <button type="button" class="button1"><i class="fa-solid fa-play"></i> Watch Now</button>
+                    <button type="button" class="button1" style="background-color: rgba(129, 129, 130, 0.7);"> <i class="fa-solid fa-circle-info"></i> More Info</button>
+                </div>
+            </div>
+        </div>
+        <div class="content-selector">
+            <div class="owl-carousel owl-theme">
+                <div class="item content-box"><img src="resources/cont1.jpg" alt=""></div>
+                <div class="item content-box"><img src="resources/cont2.jpg" alt=""></div>
+                <div class="item content-box"><img src="resources/cont3.jpg" alt=""></div>
+                <div class="item content-box"><img src="resources/cont4.jpg" alt=""></div>
+                <div class="item content-box"><img src="resources/cont5.jpg" alt=""></div>
+                <div class="item content-box"><img src="resources/cont6.jpg" alt=""></div>
+                <div class="item content-box"><img src="resources/cont7.jpg" alt=""></div>
+                <div class="item content-box"><img src="resources/cont8.jpg" alt=""></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://kit.fontawesome.com/d155c8a4ad.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/main.js"></script>
 </body>
+
 </html>
